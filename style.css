@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 480px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+}
+
+.user{
+    height: 200px;
+    width: 200px;
+    border: 8px solid rgb(2, 2, 67);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -100px;
+    background-color: aliceblue;
+    left: 75px;
+
+}
+
+.user i{
+    font-size: 130px;
+    color: rgb(2, 2, 67);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+    background-color: grey;
+}
+
+.main {
+    margin: 130px 0 55px 0;
+}
+
+.main h2{
+    color: rgb(2, 2, 67);
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+}
+
+.main p{
+    color: gray;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.main h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.main .icons{
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .icons i{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(2, 2, 67);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.footer{
+    border: 1px solid black;
+    height: 101px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(2, 2, 67);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h5{
+    font-size: 20px;
+    font-weight: 600;
+}
